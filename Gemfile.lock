@@ -1,3 +1,15 @@
+GIT
+  remote: git://github.com/neo4jrb/neo4j.git
+  revision: c506fd9e1bdeea9bbf70473c025171df73815dc3
+  specs:
+    neo4j (3.0.1)
+      active_attr (~> 0.8)
+      activemodel (~> 4)
+      activesupport (~> 4)
+      neo4j-core (~> 3.0.0)
+      orm_adapter (~> 0.5.0)
+      railties (~> 4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -66,13 +78,6 @@ GEM
     multi_json (1.10.1)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
-    neo4j (3.0.1)
-      active_attr (~> 0.8)
-      activemodel (~> 4)
-      activesupport (~> 4)
-      neo4j-core (~> 3.0.0)
-      orm_adapter (~> 0.5.0)
-      railties (~> 4)
     neo4j-core (3.0.0)
       activesupport
       faraday (~> 0.9.0)
@@ -149,7 +154,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
-  neo4j (~> 3.0.0)
+  neo4j!
   rails (= 4.1.5)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
