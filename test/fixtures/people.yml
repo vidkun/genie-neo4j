@@ -3,11 +3,9 @@
 one:
   first_name: MyString
   last_name: MyString
-  gender: MyString
-  birth_date: 2014-09-29 20:07:38
+  birth_date: 2014-09-29 20:47:06
 
 two:
   first_name: MyString
   last_name: MyString
-  gender: MyString
-  birth_date: 2014-09-29 20:07:38
+  birth_date: 2014-09-29 20:47:06

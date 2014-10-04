@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
@@ -38,3 +38,8 @@ gem 'spring',        group: :development
 
 gem 'neo4j', github: 'neo4jrb/neo4j'
 #gem "neo4j", "~> 3.0.0"
+
+gem 'pry-rails'
+gem 'pry-nav'
+gem 'better_errors'
+gem 'binding_of_caller'

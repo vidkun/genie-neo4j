@@ -3,4 +3,5 @@ class Gender
   property :name, type: String
   property :short_name, type: String
 
+  has_many :in, :people
 end
